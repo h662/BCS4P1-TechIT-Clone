@@ -80,6 +80,16 @@ header {
   border-bottom: 1px solid #e5e5e5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
 ul {
   list-style: none;
 }
@@ -120,4 +130,29 @@ button {
   font-size: 16px;
   font-weight: 600;
   color: #737373;
+}
+
+.banner {
+  height: 400px;
+  background-image: url("./images/banner.png");
+  background-size: cover;
+}
+
+.banner-container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.banner-container > h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.banner-container > h5 {
+  margin-top: 8px;
+  font-size: 18px;
 }
