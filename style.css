@@ -158,6 +158,7 @@ button {
   margin-top: 8px;
   font-size: 18px;
 }
+
 .techit-school-container {
   max-width: 1280px;
   margin: auto;
@@ -254,4 +255,41 @@ button {
 .techit-school-card > .date {
   margin-top: 16px;
   color: #a3a3a3;
+}
+
+.techit-alarm {
+  height: 206px;
+  background-image: url("./images/techit_alarm.png");
+  background-size: cover;
+}
+
+.techit-alarm-container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+}
+
+.techit-alarm-container > h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #072c56;
+}
+
+.techit-alarm-container > h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.techit-alarm-container > h3:first-of-type {
+  margin-top: 8px;
+}
+
+.techit-alarm-container > button {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #737373;
 }
