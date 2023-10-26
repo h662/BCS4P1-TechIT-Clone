@@ -413,6 +413,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: start;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .sitemap > div {
@@ -451,6 +453,8 @@ footer {
   padding-top: 16px;
   font-size: 12px;
   color: #737373;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .company-info > ul {
